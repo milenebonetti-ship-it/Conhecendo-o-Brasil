@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+    color: #fff;
+}
+
+/* Capa inicial */
+.capa {
+    background-image: url("cristo-capa.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding-right: 10%;
+    color: #fff;
+}
+
+.capa h1 {
+    font-size: 3em;
+    color: #f5b100;
+}
+
+.capa p {
+    font-size: 1.2em;
+    max-width: 500px;
+}
+
+.capa h4 {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #e0e0e0;
+}
+
+/* Seções */
+.secao {
+    padding: 80px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde {
+    background-color: #2f5d3c;
+}
+
+/* Estrutura do conteúdo */
+.conteudo {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.conteudo img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Texto */
+.texto h2 {
+    font-size: 2em;
+    color: #b7e48a;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #f1f1f1;
+}
+
+/* Pontos turísticos */
+.imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagens img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.texto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.texto li {
+    margin-bottom: 10px;
+    color: #fff;
+}
